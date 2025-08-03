@@ -1,23 +1,32 @@
-I just created FrontEnd and BackEnd floders and install all the basic dependencies.
-I just created BASE_URL using mongodb Atlas and also add some demo data which looks fine working.
-And the connection string is declared in .env file. Teammates! please go through it.
-I Just created Components: Contact_Us, Header, Home, Login, Navbar, PG_Hostels.
+#  Project Space Thub
 
-Also Installed npm i react-router-dom, npm i tailwindcss.
-Also added @import "tailwindcss" in App.css.
-Commented index.css, App.css.
-#F0FFF0 is the body color, #49796B is the Navbar color.
+Project Space Thub is a full-stack MERN application built with a modular architecture that separates the Frontend and Backend. It includes modern UI components and secure backend APIs.
 
-installed the "bcrypt" to hash the passwords.
-installed the "jsonwebtoken" to tokenize the details.
+---
 
-deleted unwanted node modules
+##  Features
 
-also installed nodemailer, I removed previous mongoDB connection string and added my personal mongoDB string please go through it
+- User authentication
+- Admin dashboard
+- Property listings
+- Responsive design
+- MongoDB integration
 
+---
 
-narendra :  i added my component pg. hostels
-Anil:   I install the dependices in backend "uuid" for generating random id for every owner.
-        I successfully created a schema for to add the new hostels
-        Also with a specific id for every hostel using the "uuid" package
-        it allows only 4 images of hostel.
+## 🛠 Tech Stack
+
+- **Frontend**: React, Tailwind CSS (or Bootstrap)
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB Atlas
+- **Hosting**: Vercel (frontend), Render (backend)
+
+---
+
+##  Installation Instructions
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/shasha0427/project-space-thub.git
+cd project-space-thub
